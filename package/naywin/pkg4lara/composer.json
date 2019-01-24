@@ -1,0 +1,41 @@
+{
+    "name": "naywin/pkg4lara",
+    "type": "library",
+    "description": "Learning Package With Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nay Win",
+            "email": "naywinwd@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "NayWin\\Pkg4Lara\\": "src/",
+            "NayWin\\Pkg4Lara\\Middleware\\": "middleware/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NayWin\\Pkg4Lara\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NayWin\\Pkg4Lara\\Pkg4LaraServiceProvider"
+            ],
+            "aliases": {
+                "Pkg4Lara": "NayWin\\Pkg4Lara\\Pkg4LaraFacade"
+            }
+        }
+    }
+}
