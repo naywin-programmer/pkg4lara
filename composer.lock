@@ -1186,7 +1186,7 @@
             "dist": {
                 "type": "path",
                 "url": "package/naywin/pkg4lara",
-                "reference": "ea51d3e09858ae4501c7a566960933b125541a6c",
+                "reference": "67639934f2f81c517992324e82a6f060a45133c2",
                 "shasum": null
             },
             "require": {
@@ -1209,8 +1209,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "NayWin\\Pkg4Lara\\": "src/",
-                    "NayWin\\Pkg4Lara\\Middleware\\": "middleware/"
+                    "NayWin\\Pkg4Lara\\": "src/"
                 }
             },
             "autoload-dev": {

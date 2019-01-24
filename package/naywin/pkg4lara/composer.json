@@ -12,8 +12,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "NayWin\\Pkg4Lara\\": "src/",
-            "NayWin\\Pkg4Lara\\Middleware\\": "middleware/"
+            "NayWin\\Pkg4Lara\\": "src/"
         }
     },
     "autoload-dev": {
